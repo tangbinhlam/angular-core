@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfb8d2a1-ffcd-4c93-8af4-43aae0e991b7" name="Default Changelist" comment="">
+    <list default="true" id="dfb8d2a1-ffcd-4c93-8af4-43aae0e991b7" name="Default Changelist" comment="[Config] - add bootstrap">
+      <change afterPath="$PROJECT_DIR$/src/app/domain/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/domain/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/domain/models/recipe.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modules/shared/abstract-ng-model.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/shared/header.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/shared/header.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/modules/recipes" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="E2E Tests (angular-core)" type="JavaScriptTestRunnerProtractor">
@@ -90,22 +105,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594330379100</updated>
-      <workItem from="1594330382243" duration="1719000" />
+      <workItem from="1594330382243" duration="20427000" />
     </task>
+    <task id="LOCAL-00001" summary="[Config] - add bootstrap">
+      <created>1594333066332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594333066332</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Component] - add module and empty component">
+      <created>1594416602530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594416602530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Routing] - add Routing">
+      <created>1594438304435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594438304435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Config] - add bootstrap" />
+    <MESSAGE value="[Component] - add module and empty component" />
+    <MESSAGE value="[Routing] - add Routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Routing] - add Routing" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="136" key="CommitChangelistDialog2" timestamp="1594330597378">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1594438303891">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state x="2062" y="139" key="CommitChangelistDialog2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594438303891" />
     <state x="334" y="136" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330597378" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1594330754609">
+    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1594416601998" />
+    <state x="527" y="252" key="RollbackChangesDialog" timestamp="1594400099499">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="527" y="252" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594400099499" />
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1594438306900">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594438306900" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330754609" />
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1594416605770" />
     <state x="2281" y="288" width="717" height="526" key="find.popup" timestamp="1594332801250">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
