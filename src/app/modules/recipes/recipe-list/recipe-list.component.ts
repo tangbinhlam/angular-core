@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Recipe} from '../../../domain';
+import {Observable, of} from 'rxjs';
 
 @Component({
   selector: 'app-recipe-list',
@@ -16,7 +17,10 @@ export class RecipeListComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  recipes$: any;
+  constructor() {
+    this.recipes$ = of(this.recipes);
+  }
 
   ngOnInit(): void {
   }
