@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb8d2a1-ffcd-4c93-8af4-43aae0e991b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/domain/models/ingredient.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/modules/products/models/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/modules/products/products.routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/domain/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/domain/models/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-detail/recipe-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-detail/recipe-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/shopping/shopping-edit/shopping-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/shopping/shopping-edit/shopping-edit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/shopping/shopping-list/shopping-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/shopping/shopping-list/shopping-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/shopping/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/shopping/shopping-list/shopping-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/products.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/products.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/shared/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/shared/header/header.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594330379100</updated>
       <workItem from="1594330382243" duration="29322000" />
-      <workItem from="1595395346767" duration="2544000" />
+      <workItem from="1595395346767" duration="6614000" />
     </task>
     <task id="LOCAL-00001" summary="[Config] - add bootstrap">
       <created>1594333066332</created>
@@ -141,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594486579119</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Product] - add model and modules">
+      <created>1595474623354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595474623354</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[Product] - add component">
+      <created>1595474662277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595474662277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,15 +175,17 @@
     <MESSAGE value="[Routing] - add Routing" />
     <MESSAGE value="[Recipe] - add model and simple list, item of Recipe" />
     <MESSAGE value="[Recipe] - modify recipe-detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Recipe] - modify recipe-detail" />
+    <MESSAGE value="[Product] - add model and modules" />
+    <MESSAGE value="[Product] - add component" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Product] - add component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1594486578651">
+    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1595474661899">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2062" y="139" key="CommitChangelistDialog2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594486578651" />
     <state x="334" y="136" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330597378" />
-    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1594416601998" />
+    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595474661899" />
     <state x="2167" y="248" key="NewModule_or_Project.wizard" timestamp="1594742432852">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
@@ -183,12 +194,12 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="527" y="252" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594400099499" />
-    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1594486580485">
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1595474663649">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2183" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594486580485" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330754609" />
-    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1594416605770" />
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595474663649" />
     <state x="2281" y="288" width="717" height="526" key="find.popup" timestamp="1594332801250">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
