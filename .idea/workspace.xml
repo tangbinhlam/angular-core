@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dfb8d2a1-ffcd-4c93-8af4-43aae0e991b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/modules/products/products.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/products.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/shared/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/shared/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/products.routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/products.routing.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/modules/products" />
+      <recent name="$PROJECT_DIR$/src/app/modules/products/models" />
       <recent name="$PROJECT_DIR$/src/app/modules/recipes" />
     </key>
   </component>
@@ -99,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594330379100</updated>
       <workItem from="1594330382243" duration="29322000" />
-      <workItem from="1595395346767" duration="6614000" />
+      <workItem from="1595395346767" duration="7257000" />
     </task>
     <task id="LOCAL-00001" summary="[Config] - add bootstrap">
       <created>1594333066332</created>
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595474662277</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Product] - init performance issue">
+      <created>1595479073465</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595479073465</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,15 +183,16 @@
     <MESSAGE value="[Recipe] - modify recipe-detail" />
     <MESSAGE value="[Product] - add model and modules" />
     <MESSAGE value="[Product] - add component" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Product] - add component" />
+    <MESSAGE value="[Product] - init performance issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Product] - init performance issue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1595474661899">
+    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1595479072885">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2062" y="139" key="CommitChangelistDialog2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594486578651" />
     <state x="334" y="136" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330597378" />
-    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595474661899" />
+    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595479072885" />
     <state x="2167" y="248" key="NewModule_or_Project.wizard" timestamp="1594742432852">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
@@ -194,12 +201,12 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="527" y="252" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594400099499" />
-    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1595474663649">
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1595479074721">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2183" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594486580485" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330754609" />
-    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595474663649" />
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595479074721" />
     <state x="2281" y="288" width="717" height="526" key="find.popup" timestamp="1594332801250">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>

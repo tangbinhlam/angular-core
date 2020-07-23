@@ -56,7 +56,7 @@
              style="cursor: pointer"
              *ngFor="let item of products"
       >
-        {{ item.name }} ({{item.description}}) {{calculate(item)}}
+        {{ item.name }} ({{item.description}}) {{item | calculate}}
       </a></li>
     </ul>
   </div>
