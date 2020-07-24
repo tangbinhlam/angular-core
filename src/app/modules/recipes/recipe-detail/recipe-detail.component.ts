@@ -1,4 +1,5 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Input, OnInit} from '@angular/core';
+import {Recipe} from '../../../domain/models';
 
 @Component({
   selector: 'app-recipe-detail',
@@ -8,6 +9,8 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   providers: []
 })
 export class RecipeDetailComponent implements OnInit {
+
+  @Input() recipe;
 
   constructor() { }
 

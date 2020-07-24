@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="dfb8d2a1-ffcd-4c93-8af4-43aae0e991b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/products/products.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/products.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/products/products.routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/products.routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/domain/models/recipe.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/domain/models/recipe.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/calculate.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/calculate.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/products/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-detail/recipe-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-detail/recipe-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-detail/recipe-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-detail/recipe-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-item/recipe-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipe-list/recipe-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/recipes/recipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/recipes/recipes.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594330379100</updated>
       <workItem from="1594330382243" duration="29322000" />
-      <workItem from="1595395346767" duration="7257000" />
+      <workItem from="1595395346767" duration="12155000" />
     </task>
     <task id="LOCAL-00001" summary="[Config] - add bootstrap">
       <created>1594333066332</created>
@@ -156,11 +167,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595479073465</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Product] - move calculator to pipe">
+      <created>1595479672626</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595479672626</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -184,32 +212,38 @@
     <MESSAGE value="[Product] - add model and modules" />
     <MESSAGE value="[Product] - add component" />
     <MESSAGE value="[Product] - init performance issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Product] - init performance issue" />
+    <MESSAGE value="[Product] - move calculator to pipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Product] - move calculator to pipe" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1595479072885">
+    <state x="2062" y="139" key="CommitChangelistDialog2" timestamp="1595479671916">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2062" y="139" key="CommitChangelistDialog2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594486578651" />
     <state x="334" y="136" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330597378" />
-    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595479072885" />
+    <state x="2062" y="139" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595479671916" />
+    <state x="1780" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1595604227971">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1780" y="123" width="1720" height="857" key="DiffContextDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595604227971" />
     <state x="2167" y="248" key="NewModule_or_Project.wizard" timestamp="1594742432852">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2167" y="248" key="NewModule_or_Project.wizard/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1594742432852" />
-    <state x="527" y="252" key="RollbackChangesDialog" timestamp="1594400099499">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="2282" y="259" key="RollbackChangesDialog" timestamp="1595605124075">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="527" y="252" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594400099499" />
-    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1595479074721">
+    <state x="2282" y="259" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595605124075" />
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2" timestamp="1595479674160">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2183" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1594486580485" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594330754609" />
-    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595479074721" />
-    <state x="2281" y="288" width="717" height="526" key="find.popup" timestamp="1594332801250">
+    <state x="2183" y="283" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595479674160" />
+    <state x="2281" y="288" width="717" height="526" key="find.popup" timestamp="1595603743313">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2281" y="288" width="717" height="526" key="find.popup/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1594332801250" />
+    <state x="2281" y="288" width="717" height="526" key="find.popup/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595603743313" />
   </component>
 </project>

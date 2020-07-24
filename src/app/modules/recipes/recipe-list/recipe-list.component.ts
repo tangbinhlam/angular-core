@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Recipe} from '../../../domain';
 import {Observable, of} from 'rxjs';
 
@@ -9,20 +9,31 @@ import {Observable, of} from 'rxjs';
 })
 export class RecipeListComponent implements OnInit {
 
+  @Output() selectedItem = new EventEmitter<Recipe>();
+
   recipes: Recipe[] = [
     {
+      id: 1,
       name: 'Batch-cook',
       description: '7 brilliant batch-cook recipes: great ways to fill the freezer',
       imagePath: `https://pinchofyum.com/wp-content/uploads/Lo-Mein-1-2.jpg`
     }
   ];
-
-  recipes$: any;
+  id = 2;
   constructor() {
-    this.recipes$ = of(this.recipes);
+
   }
 
   ngOnInit(): void {
   }
 
+  addRecipe() {
+    this.recipes.push({
+      id: this.id,
+      name: 'Batch-cook',
+      description: '7 brilliant batch-cook recipes: great ways to fill the freezer',
+      imagePath: `https://pinchofyum.com/wp-content/uploads/Lo-Mein-1-2.jpg`
+    });
+    this.id++;
+  }
 }

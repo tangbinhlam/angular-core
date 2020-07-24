@@ -54,9 +54,11 @@
     <ul class="list-group">
       <li><a class="list-group-item"
              style="cursor: pointer"
-             *ngFor="let item of products"
+             *ngFor="let item of extendProducts"
       >
-        {{ item.name }} ({{item.description}}) {{item | calculate}}
+        {{ item.name }} ({{item.description}}) {{item.cal | calculate}}
+
+        {{item.cal.amount}}
       </a></li>
     </ul>
   </div>

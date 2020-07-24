@@ -23,6 +23,7 @@ export class ProductListComponent implements OnInit {
   ];
   productForm: FormGroup;
   index = 500;
+  extendProducts = [];
 
   constructor(public fb: FormBuilder) {
     this.generateData();
@@ -67,6 +68,17 @@ export class ProductListComponent implements OnInit {
         expireDate: new Date()
       });
     }
+
+    this.extendProducts = this.products.map(item => {
+        return {
+          ...item,
+          cal: {
+            amount: item.amount,
+            price: item.price,
+          },
+        };
+      }
+    );
   }
 
   calculate(product: Product) {
