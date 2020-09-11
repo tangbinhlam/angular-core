@@ -10,7 +10,7 @@ import {HeaderModule} from './modules/shared/header.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HeaderModule,
   ],

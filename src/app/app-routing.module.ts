@@ -1,7 +1,6 @@
-import {NgModule} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
-import {HomeComponent} from './modules/shared/home/home.component';
-
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './modules/shared/home/home.component';
 
 const routes: Routes = [
   {
@@ -10,21 +9,31 @@ const routes: Routes = [
   },
   {
     path: 'recipes',
-    loadChildren: () => import('./modules/recipes/recipes.module').then(m => m.RecipesModule)
+    loadChildren: () =>
+      import('./modules/recipes/recipes.module').then((m) => m.RecipesModule),
   },
   {
     path: 'shopping',
-    loadChildren: () => import('./modules/shopping/shopping.module').then(m => m.ShoppingModule)
+    loadChildren: () =>
+      import('./modules/shopping/shopping.module').then(
+        (m) => m.ShoppingModule,
+      ),
   },
   {
     path: 'products',
-    loadChildren: () => import('./modules/products/products.module').then(m => m.ProductsModule)
-  }
+    loadChildren: () =>
+      import('./modules/products/products.module').then(
+        (m) => m.ProductsModule,
+      ),
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes, {
+      initialNavigation: 'enabled',
+    }),
+  ],
+  exports: [RouterModule],
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule {}
